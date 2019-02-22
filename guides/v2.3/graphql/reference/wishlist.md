@@ -6,6 +6,7 @@ title: Wishlist endpoint
 The Wishlist endpoint defines the contents of a customer's wish list.
 
 ## Query
+
 Use Wishlist queries to retrieve information about a customer's wish list. 
 
 ### Wish list attributes
