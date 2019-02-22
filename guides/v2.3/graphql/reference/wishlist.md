@@ -6,6 +6,7 @@ title: Wishlist endpoint
 The Wishlist endpoint defines the contents of a customer's wish list.
 
 ## Query
+
 Use Wishlist queries to retrieve information about a customer's wish list. 
 
 ### Wish list attributes
@@ -25,7 +26,7 @@ Attribute | Data type | Description
 `added_at` | String | The time when the customer added the item to the wish list
 `description` | String | The customer's comment about this item
 `id` | Int | The wish list item ID
-`product` | <a href="{{ page.baseurl }}/graphql/reference/products.html#ProductInterface">ProductInterface</a> | The ProductInterface contains attributes that are common to all types of products. Note that descriptions may not be available for custom and EAV attributes
+`product` | <a href="{{ page.baseurl }}/graphql/reference/products.html#ProductInterface">ProductInterface</a> | The `ProductInterface` contains attributes that are common to all types of products. Note that descriptions may not be available for custom and EAV attributes
 `qty` | Float | The quantity of this wish list item
 
 ## Syntax

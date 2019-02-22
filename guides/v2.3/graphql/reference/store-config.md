@@ -3,8 +3,6 @@ group: graphql
 title: storeConfig endpoint
 ---
 
-The `storeConfig` endpoint returns information about a store's configuration, including its locale, currency codes, and the secure and unsecure URLs.
-
 ## Query structure
 
 `storeConfig: StoreConfig`
