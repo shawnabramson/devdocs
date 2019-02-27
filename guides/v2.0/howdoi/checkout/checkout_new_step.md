@@ -158,7 +158,7 @@ So you need to add an [extending]({{ page.baseurl }}/frontend-dev-guide/layouts/
 A sample `checkout_index_index.xml` follows:
 
 ```xml
-<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" layout="1column" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"  xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
     <body>
         <referenceBlock name="checkout.root">
                 <arguments>
